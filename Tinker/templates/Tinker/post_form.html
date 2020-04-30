@@ -1,0 +1,23 @@
+
+{% extends "Tinker/base.html" %}
+
+{% block content %}
+
+<form method="POST" enctype="multipart/form-data">
+  {%csrf_token%}
+  <div class="container">
+    <h1>POSTS</h1>
+    <p>POST.</p>
+    <hr>
+
+    {{form.as_p}}
+    
+    <hr>
+    
+
+    <button type="submit" class="registerbtn">submit</button>
+  
+</form>
+
+
+{% endblock %}

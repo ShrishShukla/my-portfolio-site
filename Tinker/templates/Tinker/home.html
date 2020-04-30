@@ -1,0 +1,10 @@
+{% extends "Tinker/base.html" %}
+
+{% block content %}
+	{% for num in posts %}
+		<h1  style="font-family:italic"> {{ num.author }} </h1>
+		
+
+	{% endfor %}
+
+{% endblock %}
