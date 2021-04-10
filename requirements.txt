@@ -54,7 +54,7 @@ python-vlc==3.0.7110
 pytz==2019.3
 PyWavelets==1.1.1
 pywin32-ctypes==0.2.0
-PyYAML==5.2
+PyYAML==5.4
 regex==2020.4.4
 requests==2.20.0
 scikit-image==0.16.2
