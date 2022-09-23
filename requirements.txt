@@ -43,7 +43,7 @@ pafy==0.5.5
 pandas==1.0.1
 pefile==2019.4.18
 Pillow==7.0.0
-protobuf==3.6.1
+protobuf==3.18.3
 psycopg2==2.8.5
 pycparser==2.20
 PyInstaller==3.5
